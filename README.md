@@ -1,0 +1,17 @@
+# [Advent Of Code 2023](https://adventofcode.com/2023)
+
+### [Day 1 : Trebuchet?](https://github.com/damisv/adventofcode2023/tree/main/src/day_1)
+- `node index.js --day=1`
+- With base test input `node index.js --day=1 --partOne=false --testInput=true`
+
+### [Day 2 : Cube Conundrum](https://github.com/damisv/adventofcode2023/tree/main/src/day_2)
+- `node index.js --day=2 --partOne=false`
+- With base test input `node index.js --day=2 --partOne=false --testInput=true`
+
+### [Day 3 : Gear Ratios](https://github.com/damisv/adventofcode2023/tree/main/src/day_3)
+- `node index.js --day=3 --partOne=false`
+- With base test input `node index.js --day=3 --partOne=false --testInput=true`
+
+### Simple tests
+- `npm i`
+- `npm run coverage`

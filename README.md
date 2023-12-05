@@ -16,6 +16,10 @@
 - `node index.js --day=4 --partOne=false`
 - With base test input `node index.js --day=4 --partOne=false --testInput=true`
 
+### [Day 5 : If You Give A Seed A Fertilizer ](https://github.com/damisv/adventofcode2023/tree/main/src/day_5)
+- `node index.js --day=5 --partOne=false`
+- With base test input `node index.js --day=5 --partOne=false --testInput=true`
+
 ### Simple tests
 - `npm i`
 - `npm run coverage`

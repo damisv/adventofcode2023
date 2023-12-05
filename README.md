@@ -12,6 +12,10 @@
 - `node index.js --day=3 --partOne=false`
 - With base test input `node index.js --day=3 --partOne=false --testInput=true`
 
+### [Day 4 : Scratchcards ](https://github.com/damisv/adventofcode2023/tree/main/src/day_4)
+- `node index.js --day=4 --partOne=false`
+- With base test input `node index.js --day=4 --partOne=false --testInput=true`
+
 ### Simple tests
 - `npm i`
 - `npm run coverage`

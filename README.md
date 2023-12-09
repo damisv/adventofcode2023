@@ -20,6 +20,10 @@
 - `node index.js --day=5 --partOne=false`
 - With base test input `node index.js --day=5 --partOne=false --testInput=true`
 
+### [Day 6 : Wait For It ](https://github.com/damisv/adventofcode2023/tree/main/src/day_6)
+- `node index.js --day=6 --partOne=false`
+- With base test input `node index.js --day=6 --partOne=false --testInput=true`
+
 ### Simple tests
 - `npm i`
 - `npm run coverage`

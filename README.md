@@ -28,6 +28,10 @@
 - `node index.js --day=7 --partOne=false`
 - With base test input `node index.js --day=7 --partOne=false --testInput=true`
 
+### [Day 8 : Haunted Wasteland ](https://github.com/damisv/adventofcode2023/tree/main/src/day_8)
+- `node index.js --day=8 --partOne=false`
+- With base test input `node index.js --day=8 --partOne=false --testInput=true`
+
 ### Simple tests
 - `npm i`
 - `npm run coverage`

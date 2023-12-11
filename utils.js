@@ -25,6 +25,20 @@ function replaceChars(data, toReplace = /\s+/g, withReplace = "_") {
 }
 
 /**
+ * Given an array, it will iterate through it circularly
+ * @param {Array<any>} array 
+ */
+function* circularIterator(array) {
+    let index = 0;
+    while (true) {
+        if (index >= array.length) {
+            index = 0;
+        }
+        yield array[index++];
+    }
+}
+
+/**
  * 
  * @param {*} functionTocall 
  * @param {*} arguments 
@@ -74,6 +88,35 @@ async function readFile(path, transformers = [toStringAndSplitBy]) {
     return temp;
 }
 
+/**
+ * Returns the greatest common denominator of the two values.
+ * @param {number} a
+ * @param {number} b
+ */
+function gcd(a, b) {
+    return (b === 0 ? a : gcd(b, a % b));
+}
+
+/**
+ * Computes the least common multiple between the two numbers
+ * @param {number} a
+ * @param {number} b
+ */
+function doLcm(a, b) {
+    return (a * b) / gcd(a, b);
+}
+
+/**
+ * Computes the least common multiple between the numbers.
+ * @param {...number} numbers
+ */
+function lcm(...numbers) {
+  if (numbers.length < 2) {
+    throw new RangeError("need at least two numbers");
+  }
+  return numbers.reduce((acc, x) => doLcm(acc, x), 1);
+}
+
 module.exports = {
     readFile,
 
@@ -82,5 +125,12 @@ module.exports = {
     proxyFormatter,
     joinString,
     toInteger,
-    isNumeric
+    isNumeric,
+
+    circularIterator,
+
+    // MATH
+    lcm,
+    doLcm,
+    gcd,
 };
